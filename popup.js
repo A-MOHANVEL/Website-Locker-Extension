@@ -238,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 async function getAISuggestions(frequencyData) {
-  const apiKey = 'AIzaSyDvHWTKIxHxGo1IWwEPZNqzvnBYuzUFVDc'; 
+  const apiKey = ''; //Replace with your api key
   const prompt = `Based on the following website visit frequency data, suggest websites that the user should consider locking:
 ${JSON.stringify(frequencyData, null, 2)}
 
@@ -280,3 +280,4 @@ Return only the websites that can(if locked it would be nice) be locked as a JSO
     logoutPasswordInput.value = '';
   });
 });
+//AIzaSyDvHWTKIxHxGo1IWwEPZNqzvnBYuzUFVDc
