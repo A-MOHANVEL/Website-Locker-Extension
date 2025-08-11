@@ -315,7 +315,7 @@ function createChatOverlay(content) {
       ]
     };
 
-    const api_key = 'AIzaSyDvHWTKIxHxGo1IWwEPZNqzvnBYuzUFVDc'; // Replace with your actual API key
+    const api_key = ''; // Replace with your actual API key
     fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${api_key}`, {
       method: 'POST',
       headers: {
@@ -491,5 +491,5 @@ async function addFloatingLockButton() {
   addLoadingStyles();
   addFloatingLockButton();
 })();
-
+//AIzaSyDvHWTKIxHxGo1IWwEPZNqzvnBYuzUFVDc
 // Add a confirmation dialog in your extension's popup or options page
